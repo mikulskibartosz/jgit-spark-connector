@@ -27,10 +27,7 @@ setup(
     url="https://github.com/src-d/jgit-spark-connector/tree/master/python",
     packages=['sourced.engine'],
     namespace_packages=['sourced'],
-    install_requires=[
-        "pyspark==" + os.environ.get('SPARK_VERSION', "2.2.1"),
-        "bblfsh==2.9.13"
-    ],
+    install_requires=[],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Intended Audience :: Developers",
