@@ -11,7 +11,7 @@ if exists(VERSION_FILE):
     with open(VERSION_FILE, 'r') as f:
         __version__ = f.read().strip()
 else:
-    __version__ = 'local'
+    __version__ = '1.4.4+torch1.10.0.cu111'
 
 with open(README_FILE, 'r') as f:
     README = f.read()
